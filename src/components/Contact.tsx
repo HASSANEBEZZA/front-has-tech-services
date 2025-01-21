@@ -18,9 +18,9 @@ const Contact: React.FC = () => {
     setErrorMessage('');
 
     try {
-      // URL du backend hébergé sur Railway
+      // URL mise à jour du backend
       const response = await axios.post(
-        'https://serveur-dispose-de-services-technologiques.railway.internal/api/contact',
+        'https://server-has-tech-services.onrender.com/api/contact',  // Nouvelle URL
         formData
       );
       if (response.status === 200) {
