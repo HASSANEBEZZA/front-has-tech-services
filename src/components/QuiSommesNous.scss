@@ -1,0 +1,41 @@
+.qui-sommes-nous {
+  .image-container, .video-container {
+    width: 100%; /* Le conteneur occupe toute la largeur */
+    max-width: 560px; /* Largeur maximale pour la vidéo ou l'image */
+    margin: 0 auto; /* Centrer horizontalement */
+    padding: 1rem; /* Espacement autour */
+    text-align: center; /* Centrer le contenu à l'intérieur */
+
+    iframe {
+      width: 100%; /* L'iframe prend toute la largeur du conteneur */
+      height: auto;
+      aspect-ratio: 16 / 9; /* Assurer le ratio 16:9 pour les vidéos */
+      border-radius: 8px; /* Arrondir légèrement les coins */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ajouter une ombre douce */
+    }
+  }
+
+  /* Pour les petits écrans */
+  @media (max-width: 768px) {
+    .image-container, .video-container {
+      padding: 0.5rem; 
+      max-width: 400px; 
+    }
+
+    iframe {
+      max-width: 100%; 
+    }
+  }
+
+  /* Pour les mobiles */
+  @media (max-width: 480px) {
+    .image-container, .video-container {
+      padding: 0.25rem; 
+      max-width: 300px; 
+    }
+
+    iframe {
+      max-width: 100%; 
+    }
+  }
+}
