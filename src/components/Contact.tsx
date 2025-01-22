@@ -18,11 +18,12 @@ const Contact: React.FC = () => {
     setErrorMessage('');
 
     try {
-      // URL mise à jour du backend
+      // Utiliser la variable d'environnement pour l'URL de l'API
       const response = await axios.post(
-        'https://server-has-tech-services.onrender.com/api/contact',  // Nouvelle URL
+        process.env.REACT_APP_API_URL || '', // URL provenant de la variable d'environnement
         formData
       );
+
       if (response.status === 200) {
         setStatus('success');
         setFormData({ name: '', email: '', message: '' });
@@ -42,8 +43,8 @@ const Contact: React.FC = () => {
           <h2 className="text-5xl font-extrabold text-blue-700 mb-8">Contactez-nous</h2>
           <p className="text-xl text-gray-700 mb-10">
             Besoin d'assistance ? Contactez-nous via le formulaire ou par email à{' '}
-            <a href="mailto:support@has-tech.com" className="text-blue-500 underline">
-              support@has-tech.com
+            <a href={`mailto:${process.env.REACT_APP_SUPPORT_EMAIL}`} className="text-blue-500 underline">
+              {process.env.REACT_APP_SUPPORT_EMAIL}
             </a>
             .
           </p>

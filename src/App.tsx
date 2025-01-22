@@ -10,7 +10,7 @@ import RepairInfo from './components/RepairInfo';
 import NetworkServices from './components/NetworkServices';
 import AssistanceFormation from './components/AssistanceFormation';
 import CreationSitesAccompagnement from './components/CreationSitesAccompagnement'; 
-import Tarifs from './pages/Tarifs'; 
+import Tarifs from './pages/Tarifs';
 
 const HomePage: React.FC = () => {
   return (
@@ -28,7 +28,9 @@ const HomePage: React.FC = () => {
       <section id="about-us" className="py-16 bg-gray-100">
         <QuiSommesNous />
       </section>
-      <Services />
+      <section id="services" className="py-16">
+        <Services />
+      </section>
       <section id="contact" className="py-16 bg-gray-100">
         <Contact />
       </section>
@@ -63,7 +65,10 @@ const App: React.FC = () => {
             <Route path="/creation-sites-accompagnement" element={<CreationSitesAccompagnement />} />
 
             {/* Page Tarifs */}
-            <Route path="/tarifs" element={<Tarifs />} /> 
+            <Route path="/tarifs" element={<Tarifs />} />
+
+            {/* Ajout de la route pour Contact (en cas de besoin) */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         
