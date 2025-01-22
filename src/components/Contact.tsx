@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
         <div className="container mx-auto text-center px-6">
           <h2 className="text-5xl font-extrabold text-blue-700 mb-8">Contactez-nous</h2>
           <p className="text-xl text-gray-700 mb-10">
-            Besoin d'assistance ? Contactez-nous via le formulaire ou par email à{' '}
+            Besoin d'assistance ? Contactez-nous via le formulaire ou par email à{'has-tech-services@gmail.com'}
             <a href={`mailto:${process.env.REACT_APP_SUPPORT_EMAIL}`} className="text-blue-500 underline">
               {process.env.REACT_APP_SUPPORT_EMAIL}
             </a>
