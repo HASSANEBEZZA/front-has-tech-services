@@ -10,11 +10,12 @@ import RepairInfo from './components/RepairInfo';
 import NetworkServices from './components/NetworkServices';
 import AssistanceFormation from './components/AssistanceFormation';
 import CreationSitesAccompagnement from './components/CreationSitesAccompagnement'; 
-import Tarifs from './pages/Tarifs';
+import Tarifs from './components/Tarifs';
 
 const HomePage: React.FC = () => {
   return (
     <>
+      {/* Section d'accueil */}
       <section id="home" className="py-16">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl lg:text-6xl font-extrabold text-blue-700 tracking-wide">
@@ -25,13 +26,24 @@ const HomePage: React.FC = () => {
           </p>
         </div>
       </section>
+
+      {/* Section "Qui sommes-nous" */}
       <section id="about-us" className="py-16 bg-gray-100">
         <QuiSommesNous />
       </section>
+
+      {/* Section "Services" */}
       <section id="services" className="py-16">
         <Services />
       </section>
-      <section id="contact" className="py-16 bg-gray-100">
+
+      {/* Section "Tarifs" */}
+      <section id="tarifs" className="py-16 bg-gray-100">
+        <Tarifs />
+      </section>
+
+      {/* Section "Contact" */}
+      <section id="contact" className="py-16">
         <Contact />
       </section>
     </>

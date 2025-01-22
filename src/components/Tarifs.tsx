@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa'; 
-import '../styles/Tarifs.scss';
+import './Tarifs.scss';
 
 const Tarifs: React.FC = () => {
   const location = useLocation();

@@ -96,13 +96,6 @@ const Services: React.FC = () => {
             </ul>
           </div>
         </div>
-
-        {/* Bande horizontale pour le lien */}
-        <div className="w-full bg-gray-200 py-6 mt-12 text-center">
-          <Link to="/tarifs" className="text-blue-700 text-lg font-semibold hover:underline">
-            Voir nos tarifs de prestation
-          </Link>
-        </div>
       </div>
     </section>
   );
