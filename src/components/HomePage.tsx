@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import QuiSommesNous from './QuiSommesNous';
 import Services from './Service';
-import Tarifs from './Tarifs'; 
+import Tarifs from './Tarifs'; // Import du composant Tarifs
 import Contact from './Contact';
 import Footer from './Footer';
 import './HomePage.scss';

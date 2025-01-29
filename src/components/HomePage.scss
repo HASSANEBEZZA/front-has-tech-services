@@ -1,96 +1,26 @@
-/* HomePage.scss */
+@import './_variables';
 
-/* Styles globaux */
-.home-page {
-  display: flex;
-  flex-direction: column;
-  height: 100vh; /* Prend toute la hauteur de la fenêtre */
-}
-
-.main-content {
-  flex: 1; /* Prend tout l'espace restant */
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  padding: 20px;
-  background-color: #f9fafb;
-}
-
-/* Style général du Header */
 .header {
-  background-color: #1d4ed8; 
-}
-
-/* Styles du menu mobile */
-.nav-links {
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-links ul {
-  transition: all 0.3s ease-in-out;
-}
-
-.menu-toggle {
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  font-size: 24px;
-}
-
-/* Affichage du menu sur mobile */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Cacher le menu mobile par défaut */
-  }
-  .nav-links.block {
-    display: block; /* Afficher le menu mobile quand il est ouvert */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(29, 78, 216, 0.9); 
-    z-index: 10;
-    flex-direction: column;
-    justify-content: center;
+  .navbar {
+    background-color: #1e3a8a; // Couleur personnalisée
   }
 
-  .nav-links ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+  .navbar-brand img {
+    width: 8rem;
+    height: auto;
   }
 
-  .nav-links li {
-    margin: 10px 0;
+  .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #38bdf8 !important; // Couleur sur hover
+    }
   }
 
-  .nav-links a {
-    color: #ffffff;
-    font-size: 1.25rem;
-    text-decoration: none;
-    padding: 10px;
-    transition: color 0.3s ease-in-out;
-  }
-
-  .nav-links a:hover {
-    color: #ccc;
+  .navbar-toggler-icon {
+    filter: invert(1); // Rend l'icône blanche
   }
 }
-
-/* Grille tarifaire */
-.tariff-grid .section {
-  background-color: #f3f4f6;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer */
-.footer {
- 
-  padding: 20px;
-}
-

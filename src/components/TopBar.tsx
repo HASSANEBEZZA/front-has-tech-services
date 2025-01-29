@@ -18,7 +18,7 @@ const TopBar: React.FC = () => {
         <div className="top-bar-item">
           <FaClock className="icon" />
           <span>
-            Horaires : <strong>Lundi/Dimanche : 08:00 - 19:00</strong>
+            Horaires : <strong>Lundi/samedi : 08:00 - 19:00</strong>
           </span>
         </div>
 
