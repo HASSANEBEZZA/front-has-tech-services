@@ -62,7 +62,7 @@ const AssistanceFormation: React.FC = () => {
         Apprenez les bases de la sécurité informatique pour protéger vos données personnelles et professionnelles. On vous accompagne pour comprendre les bonnes pratiques, telles que la gestion des mots de passe, la détection des emails frauduleux et la protection de votre réseau.
         </p>
         <img
-          src="https://i.imgur.com/ZstQcSu.jpeg"
+          src="https://i.imgur.com/TqVfako.jpeg"
           alt="Sécurité informatique"
           className="w-1/3 h-auto mb-8 mx-auto"  
         />

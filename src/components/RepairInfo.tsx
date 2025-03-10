@@ -59,7 +59,7 @@ const RepairInfo: React.FC = () => {
         Votre ordinateur comporte de nombreux composants sensibles et fragiles. On vous conseille de prendre soin de votre appareil en cas de chocs, d'exposition à l'eau, à l'humidité, à la poussière et aux températures extrêmes. Notre service de réparation incluent également des vérifications pour assurer une bonne ventilation et préserver les charnières, afin de garantir une utilisation optimale et une plus longue durée de vie de votre appareil.
         </p>
         <img 
-          src="https://i.imgur.com/EXWwYlt.jpeg" 
+          src="https://i.imgur.com/P5sUA2V.jpeg" 
           alt="Précautions pour ordinateur" 
           className="w-full h-auto mb-8"
         />
@@ -85,7 +85,7 @@ const RepairInfo: React.FC = () => {
         Les batteries au lithium fonctionnent de manière optimale lorsque leur charge est maintenue entre 20% et 80%. Grâce à nos services de réparation, on vous aide à optimiser la gestion de la batterie pour éviter les décharges complètes et les surcharges prolongées, contribuant ainsi à la préservation de sa durée de vie.
         </p>
         <img 
-          src="https://i.imgur.com/hT14sXY.jpeg" 
+          src="https://i.imgur.com/Inzx63y.jpeg" 
           alt="Prolonger la vie de la batterie" 
           className="w-full h-auto mb-8"
         />
@@ -98,7 +98,7 @@ const RepairInfo: React.FC = () => {
         Les batteries au lithium fonctionnent de manière optimale lorsque leur charge est maintenue entre 20% et 80%. Grâce à nos services de réparation, on vous aide à optimiser la gestion de la batterie pour éviter les décharges complètes et les surcharges prolongées, contribuant ainsi à la préservation de sa durée de vie.
         </p>
         <img 
-          src="https://i.imgur.com/C8OkuzZ.jpeg" 
+          src="https://i.imgur.com/6Gg0awi.jpeg" 
           alt="Réparation et écologie" 
           className="w-full h-auto mb-8"
         />

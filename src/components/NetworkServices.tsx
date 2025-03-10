@@ -67,7 +67,7 @@ const NetworkServices: React.FC = () => {
         On vous aide à gérer vos adresses IP et à installer un câblage Ethernet propre et performant, permettant une communication rapide et stable entre vos équipements.
         </p>
         <img
-          src="https://i.imgur.com/G513vIt.jpg/600x400" 
+          src="https://i.imgur.com/JSpYFDj.jpeg" 
           alt="Gestion IP et câblage Ethernet"
         />
       </section>
