@@ -2,7 +2,7 @@
 
 .header {
   .navbar {
-    background-color: #1e3a8a; // Couleur personnalisée
+    background-color: #1e3a8a; 
   }
 
   .navbar-brand img {
@@ -16,11 +16,11 @@
     transition: color 0.3s ease;
 
     &:hover {
-      color: #38bdf8 !important; // Couleur sur hover
+      color: #38bdf8 !important; 
     }
   }
 
   .navbar-toggler-icon {
-    filter: invert(1); // Rend l'icône blanche
+    filter: invert(1); 
   }
 }

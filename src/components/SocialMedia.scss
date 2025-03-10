@@ -1,11 +1,11 @@
 .social-media-section {
     background-color: rgba(215, 217, 221, 0.9);
-    padding: 10px 0; /* Hauteur réduite */
+    padding: 10px 0; 
     text-align: center;
   
     .container {
-      max-width: 1024px; /* Limite de la largeur */
-      margin: 0 auto; /* contenu centré */
+      max-width: 1024px; 
+      margin: 0 auto;
     }
   
     h3 {
@@ -22,7 +22,7 @@
       transition: color 0.3s ease;
   
       &:hover {
-        color: #043277; /* Gris clair */
+        color: #043277; 
       }
     }
   }

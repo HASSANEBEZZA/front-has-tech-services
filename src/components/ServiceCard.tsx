@@ -1,5 +1,5 @@
 import React from 'react';
-import './services.scss'; // Assurez-vous que le chemin est correct
+import './services.scss'; 
 
 interface ServiceCardProps {
   name: string;
@@ -9,7 +9,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ name, description, price }) => {
   return (
-    <div className="service-card"> {/* Classe CSS globale */}
+    <div className="service-card"> 
       <h3>{name}</h3>
       <p>{description}</p>
       <p>{`$${price.toFixed(2)}`}</p>

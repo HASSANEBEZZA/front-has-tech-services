@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Composants
 import Header from './components/Header';
 import TopBar from './components/TopBar';
 import QuiSommesNous from './components/QuiSommesNous';
@@ -9,8 +11,11 @@ import Services from './components/Service';
 import RepairInfo from './components/RepairInfo';
 import NetworkServices from './components/NetworkServices';
 import AssistanceFormation from './components/AssistanceFormation';
-import CreationSitesAccompagnement from './components/CreationSitesAccompagnement'; 
+import CreationSitesAccompagnement from './components/CreationSitesAccompagnement';
 import Tarifs from './components/Tarifs';
+import Avis from './components/Avis';
+import MentionsLegales from './pages/MentionsLegales';
+import PrivacyPolicy from './pages/PrivacyPolicy';  
 
 const HomePage: React.FC = () => {
   return (
@@ -40,6 +45,11 @@ const HomePage: React.FC = () => {
       {/* Section "Tarifs" */}
       <section id="tarifs" className="py-16 bg-gray-100">
         <Tarifs />
+      </section>
+
+      {/* Section "Avis" */}
+      <section id="avis" className="py-16 bg-white">
+        <Avis /> 
       </section>
 
       {/* Section "Contact" */}
@@ -79,7 +89,16 @@ const App: React.FC = () => {
             {/* Page Tarifs */}
             <Route path="/tarifs" element={<Tarifs />} />
 
-            {/* Ajout de la route pour Contact (en cas de besoin) */}
+            {/* Page des avis */}
+            <Route path="/avis" element={<Avis />} />  {/* Ajout de la route pour la page Avis */}
+
+            {/* Page Mentions Légales */}
+            <Route path="/mentions-legales" element={<MentionsLegales />} /> {/* Ajout de la route pour Mentions Légales */}
+
+            {/* Page Privacy Policy */}
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Ajout de la route pour Privacy Policy */}
+
+            {/* Page Contact */}
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

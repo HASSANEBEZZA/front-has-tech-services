@@ -25,12 +25,11 @@ const Services: React.FC = () => {
           {/* Service 1 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/repair-info">
-              <img
-                src="https://i.imgur.com/iyDUQHl.jpg"
-                alt="Illustration de dépannage informatique"
-                className="w-full h-64 object-contain mb-4"
-              />
+              <img src="https://i.imgur.com/xWaLqBu.jpeg" alt="Illustration de dépannage informatique" className="w-full h-64 object-contain mb-2" />
             </Link>
+            <p className="text-sm text-gray-500 text-center mb-4">
+              <Link to="/repair-info" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
+            </p>
             <h3 className="text-xl font-semibold text-center">
               <Link to="/repair-info">Dépannage Informatique</Link>
             </h3>
@@ -44,12 +43,11 @@ const Services: React.FC = () => {
           {/* Service 2 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/network-setup">
-              <img
-                src="https://i.imgur.com/B1i4E4i.jpg"
-                alt="Illustration de configuration réseau"
-                className="w-full h-64 object-contain mb-4"
-              />
+              <img src="https://i.imgur.com/5QShZ83.jpeg" alt="Illustration de configuration réseau" className="w-full h-64 object-contain mb-2" />
             </Link>
+            <p className="text-sm text-gray-500 text-center mb-4">
+              <Link to="/network-setup" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
+            </p>
             <h3 className="text-xl font-semibold text-center">
               <Link to="/network-setup">Installation et Configuration Réseau</Link>
             </h3>
@@ -63,14 +61,13 @@ const Services: React.FC = () => {
           {/* Service 3 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/assistance-formation">
-              <img
-                src="https://i.imgur.com/210jWw2.jpg"
-                alt="Illustration d'assistance et formation"
-                className="w-full h-64 object-contain mb-4"
-              />
+              <img src="https://i.imgur.com/IdX3BM2.jpeg" alt="Illustration d'assistance et formation" className="w-full h-64 object-contain mb-2" />
             </Link>
+            <p className="text-sm text-gray-500 text-center mb-4">
+              <Link to="/assistance-formation" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
+            </p>
             <h3 className="text-xl font-semibold text-center">
-              <Link to="/support-training">Assistance et Formation</Link>
+              <Link to="/assistance-formation">Assistance et Formation</Link>
             </h3>
             <ul className="list-disc list-inside text-gray-700">
               <li>Assistance technique à distance ou sur site.</li>
@@ -81,12 +78,11 @@ const Services: React.FC = () => {
           {/* Service 4 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/creation-sites-accompagnement">
-              <img
-                src="https://i.imgur.com/uBRUIKF.jpeg"
-                alt="Illustration de création de sites web"
-                className="w-full h-64 object-contain mb-4"
-              />
+              <img src="https://i.imgur.com/5PHul5a.jpeg" alt="Illustration de création de sites web" className="w-full h-64 object-contain mb-2" />
             </Link>
+            <p className="text-sm text-gray-500 text-center mb-4">
+              <Link to="/creation-sites-accompagnement" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
+            </p>
             <h3 className="text-xl font-semibold text-center">
               <Link to="/creation-sites-accompagnement">Création de Sites Web et Accompagnement Digital</Link>
             </h3>
@@ -95,6 +91,13 @@ const Services: React.FC = () => {
               <li>Stratégie et gestion de présence sur les réseaux sociaux.</li>
             </ul>
           </div>
+        </div>
+
+        {/* Bande horizontale pour le lien */}
+        <div className="w-full bg-gray-200 py-6 mt-12 text-center">
+          <Link to="/tarifs" className="text-blue-700 text-lg font-semibold hover:underline">
+            Voir nos tarifs de prestation
+          </Link>
         </div>
       </div>
     </section>

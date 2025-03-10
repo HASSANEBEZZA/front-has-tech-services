@@ -29,12 +29,10 @@ const Header: React.FC = () => {
           </Link>
         </div>
 
-        {/* Menu toggle for mobile */}
         <button className="menu-toggle md:hidden" onClick={toggleMenu}>
           <span className="text-white">☰</span>
         </button>
 
-        {/* Navigation menu */}
         <nav
           className={`nav-links ${
             isMenuOpen ? 'block' : 'hidden'
@@ -81,6 +79,18 @@ const Header: React.FC = () => {
                 onClick={closeMenu}
               >
                 Tarifs
+              </ScrollLink>
+            </li>
+       
+            <li>
+              <ScrollLink
+                to="avis" 
+                smooth={true}
+                duration={500}
+                className="text-white hover:text-gray-300 cursor-pointer"
+                onClick={closeMenu}
+              >
+                Avis
               </ScrollLink>
             </li>
             <li>

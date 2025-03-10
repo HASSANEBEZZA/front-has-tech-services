@@ -74,7 +74,7 @@ const CreationSitesAccompagnement: React.FC = () => {
           Après la création de votre site, nous offrons un service de maintenance pour nous assurer que votre site reste toujours à jour et fonctionne parfaitement. Nous offrons également un support continu pour répondre à toutes vos questions ou préoccupations.
         </p>
         <img
-          src="https://i.imgur.com/rw0vmlu.jpg"
+          src="https://i.imgur.com/SrQj0Z5.jpeg"
           alt="Maintenance et support"
           className="image-small"
         />
