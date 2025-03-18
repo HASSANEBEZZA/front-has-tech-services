@@ -20,7 +20,7 @@ const RepairInfo: React.FC = () => {
           Nous proposons des services de réparation pour tous vos appareils informatiques, y compris les ordinateurs de bureau, portables et imprimantes. Quel que soit le problème, nous avons la solution.
         </p>
         <img 
-          src="https://i.imgur.com/EcvAEQf.jpeg" 
+          src="https://i.imgur.com/sJG4WXi.jpeg" 
           alt="Réparation informatique" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -33,7 +33,7 @@ const RepairInfo: React.FC = () => {
           Nous offrons des services de maintenance logicielle, y compris la suppression de virus, l'optimisation des performances et la gestion des mises à jour. Assurez-vous que votre système fonctionne à son meilleur niveau.
         </p>
         <img 
-          src="https://i.imgur.com/2mPhMbD.jpeg" 
+          src="https://i.imgur.com/DPAL2Oo.jpeg" 
           alt="Maintenance logicielle" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -46,7 +46,7 @@ const RepairInfo: React.FC = () => {
           Vous avez perdu des données importantes ? Nous proposons des services de récupération de données à partir de disques durs endommagés ou d'autres supports de stockage. Nous récupérons vos données avec soin et sécurité.
         </p>
         <img 
-          src="https://i.imgur.com/tX1EQ1d.jpeg" 
+          src="https://i.imgur.com/0eFvmKH.jpeg" 
           alt="Récupération de données" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -72,7 +72,7 @@ const RepairInfo: React.FC = () => {
         La poussière est l'un des principaux ennemis de votre appareil. On propose un service de nettoyage complet, en dépoussiérant les parties visibles et internes de votre ordinateur à l'aide d'outils professionnels, pour garantir une meilleure longévité.
         </p>
         <img 
-          src="https://i.imgur.com/z17iKib.jpeg" 
+          src="https://i.imgur.com/LNFOWFR.jpeg" 
           alt="Nettoyage de l'ordinateur" 
           className="w-full h-auto mb-8"
         />

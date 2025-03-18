@@ -22,7 +22,7 @@ const CreationSitesAccompagnement: React.FC = () => {
           Nous créons des sites vitrines professionnels pour les entreprises ou les particuliers. Notre approche est personnalisée pour chaque projet afin de garantir que votre site reflète parfaitement l'image de votre entreprise et répond à vos besoins spécifiques.
         </p>  
         <img
-          src="https://i.imgur.com/4uuCkvg.jpg"
+          src="https://i.imgur.com/bfzF9iE.jpeg"
           alt="Conception de sites vitrines"
           className="image-small"
         />
@@ -35,7 +35,7 @@ const CreationSitesAccompagnement: React.FC = () => {
           Tous nos sites sont conçus pour être entièrement responsive, c'est-à-dire adaptés à tous les types d'appareils : ordinateurs, tablettes, et smartphones. Un site bien conçu doit offrir une expérience utilisateur optimale, peu importe la taille de l'écran.
         </p>
         <img
-          src="https://i.imgur.com/3tJy8kZ.jpg"
+          src="https://i.imgur.com/rBV4Cqo.jpeg"
           alt="Design responsive"
           className="image-small"
         />
@@ -48,7 +48,7 @@ const CreationSitesAccompagnement: React.FC = () => {
           Nous vous aidons à élaborer une stratégie efficace pour augmenter votre présence en ligne. Que ce soit sur Facebook, Instagram, LinkedIn ou d'autres réseaux sociaux, nous gérons vos comptes et créons des contenus engageants pour attirer plus de clients.
         </p>
         <img
-          src="https://i.imgur.com/eqkUnud.jpg"
+          src="https://i.imgur.com/ZJPmgio.jpeg"
           alt="Réseaux sociaux"
           className="image-small"
         />
@@ -61,7 +61,7 @@ const CreationSitesAccompagnement: React.FC = () => {
           Nos services incluent l'optimisation pour les moteurs de recherche (SEO). Nous vous aidons à améliorer la visibilité de votre site sur Google, en vous assurant qu'il apparaît dans les résultats de recherche pertinents pour vos mots-clés cibles.
         </p>
         <img
-          src="https://i.imgur.com/28dcKJx.jpg"
+          src="https://i.imgur.com/IvWvk8e.jpeg"
           alt="SEO et optimisation"
           className="image-small"
         />

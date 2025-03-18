@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
             {/* Image */}
             <div className="mt-8">
               <img
-                src="https://i.imgur.com/CKsWnbu.jpeg"
+                src="https://i.imgur.com/52Clmfv.jpeg"
                 alt="Technologie"
                 className="mx-auto max-w-full h-auto"
               />

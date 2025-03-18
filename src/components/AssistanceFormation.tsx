@@ -23,7 +23,7 @@ const AssistanceFormation: React.FC = () => {
         On propose une assistance technique pour résoudre vos problèmes informatiques, que ce soit à distance ou directement sur site. Que vous rencontrez des soucis logiciels, matériels ou réseau, on est là pour vous aider à trouver des solutions rapides et efficaces.
         </p>
         <img
-          src="https://i.imgur.com/dsR94dQ.jpg"
+          src="https://i.imgur.com/Ky7Vg4u.jpg"
           alt="Assistance technique"
           className="w-1/3 h-auto mb-8 mx-auto"  
         />
