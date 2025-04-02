@@ -16,6 +16,8 @@ import Tarifs from './components/Tarifs';
 import Avis from './components/Avis';
 import MentionsLegales from './pages/MentionsLegales';
 import PrivacyPolicy from './pages/PrivacyPolicy';  
+import SystemeServices from './components/SystemeServices';  
+import RepairServices from './components/RepairServices';
 
 const HomePage: React.FC = () => {
   return (
@@ -74,8 +76,15 @@ const App: React.FC = () => {
             {/* Page d'accueil */}
             <Route path="/" element={<HomePage />} />
             
-            {/* Page des informations de réparation */}
+            {/* Page deppanage informations */}
             <Route path="/repair-info" element={<RepairInfo />} />
+
+            
+            {/* Page reparation telephone */}
+            <Route path="/repair-services" element={<RepairServices />} />
+            
+            {/* Page formatage telephone */}
+            <Route path="/systeme-services" element={<SystemeServices />} />  
             
             {/* Page Installation et Configuration Réseau */}
             <Route path="/network-setup" element={<NetworkServices />} />
@@ -90,13 +99,13 @@ const App: React.FC = () => {
             <Route path="/tarifs" element={<Tarifs />} />
 
             {/* Page des avis */}
-            <Route path="/avis" element={<Avis />} />  {/* Ajout de la route pour la page Avis */}
+            <Route path="/avis" element={<Avis />} />
 
             {/* Page Mentions Légales */}
-            <Route path="/mentions-legales" element={<MentionsLegales />} /> {/* Ajout de la route pour Mentions Légales */}
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
 
             {/* Page Privacy Policy */}
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Ajout de la route pour Privacy Policy */}
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
             {/* Page Contact */}
             <Route path="/contact" element={<Contact />} />
@@ -111,3 +120,15 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+

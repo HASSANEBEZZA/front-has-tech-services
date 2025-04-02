@@ -10,7 +10,7 @@ const RepairInfo: React.FC = () => {
   return (
     <div className="repair-info container mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-center text-blue-700 mb-8">
-        Nos Prestations
+      Dépannage informatique
       </h1>
       <br></br>
       {/* Section 1 - Réparation de matériel informatique */}

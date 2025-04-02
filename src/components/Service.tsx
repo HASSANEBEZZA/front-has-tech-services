@@ -91,6 +91,40 @@ const Services: React.FC = () => {
               <li>Stratégie et gestion de présence sur les réseaux sociaux.</li>
             </ul>
           </div>
+          
+          {/* Service 5 - Réparation matérielle téléphone */}
+          <div className="service-card p-4 bg-white shadow-lg rounded-lg">
+          <Link to="/repair-services">
+              <img src="https://i.imgur.com/niVMkg8.png" alt="Illustration de création de sites web" className="w-full h-64 object-contain mb-2" />
+            </Link>
+            <p className="text-sm text-gray-500 text-center mb-4">
+              <Link to="/repair-services" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
+            </p>
+            <h3 className="text-xl font-semibold text-center">Réparation matérielle téléphone</h3>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>Changement d’écran cassé</li>
+              <li>Remplacement de batterie</li>
+              <li>Réparation haut-parleur et micro</li>
+              <li>Changement de pièces défectueuses</li>
+            </ul>
+          </div>
+
+          {/* Service 6 - Réparation logicielle téléphone */}
+          <div className="service-card p-4 bg-white shadow-lg rounded-lg">
+          <Link to="/systeme-services">
+              <img src="https://i.imgur.com/rFdlev6.png" alt="Illustration de création de sites web" className="w-full h-64 object-contain mb-2" />
+            </Link>
+            <p className="text-sm text-gray-500 text-center mb-4">
+              <Link to="/systeme-services" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
+            </p>
+            <h3 className="text-xl font-semibold text-center">formatage et installation téléphone</h3>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>Formatage et réinstallation du système</li>
+              <li>Déblocage de téléphone</li>
+              <li>Suppression de virus et optimisation</li>
+              <li>Mises à jour et restauration du logiciel</li>
+            </ul>
+          </div>
         </div>
 
         {/* Bande horizontale pour le lien */}
