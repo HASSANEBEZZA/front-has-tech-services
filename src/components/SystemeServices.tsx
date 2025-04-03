@@ -46,7 +46,7 @@ const SystemeServices: React.FC = () => {
           Nous supprimons les virus et malwares de votre appareil, puis procédons à une optimisation de ses performances pour une utilisation fluide.
         </p>
         <img 
-          src="https://i.imgur.com/eQKMUew.png" 
+          src="https://i.imgur.com/y7PYTzu.png" 
           alt="Suppression de virus et optimisation" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -59,7 +59,7 @@ const SystemeServices: React.FC = () => {
           Nous effectuons les dernières mises à jour de votre logiciel et pouvons restaurer votre appareil à un état antérieur si nécessaire.
         </p>
         <img 
-          src="https://i.imgur.com/ghi789.jpeg" 
+          src="https://i.imgur.com/eQKMUew.png" 
           alt="Mises à jour et restauration du logiciel" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
