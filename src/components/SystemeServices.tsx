@@ -9,7 +9,7 @@ const SystemeServices: React.FC = () => {
   return (
     <div className="systeme-services container mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-center text-blue-700 mb-8">
-      formatage et installation téléphone
+      Formatage et installation téléphone
       </h1>
       <br />
       
