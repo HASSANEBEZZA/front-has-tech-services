@@ -19,7 +19,7 @@ const SystemeServices: React.FC = () => {
           Nous effectuons un formatage complet de votre appareil pour le remettre à neuf et réinstaller le système d'exploitation pour optimiser ses performances.
         </p>
         <img 
-          src="https://i.imgur.com/xyz123.jpeg" 
+          src="https://i.imgur.com/XJoaZpJ.png" 
           alt="Formatage et réinstallation" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -32,7 +32,7 @@ const SystemeServices: React.FC = () => {
           Nous proposons un service de déblocage de téléphone, qu'il soit bloqué par mot de passe, opérateur ou autre restriction.
         </p>
         <img 
-          src="https://i.imgur.com/abc456.jpeg" 
+          src="https://i.imgur.com/Ms6Zsx8.png" 
           alt="Déblocage de téléphone" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -45,7 +45,7 @@ const SystemeServices: React.FC = () => {
           Nous supprimons les virus et malwares de votre appareil, puis procédons à une optimisation de ses performances pour une utilisation fluide.
         </p>
         <img 
-          src="https://i.imgur.com/def789.jpeg" 
+          src="https://i.imgur.com/y7PYTzu.png" 
           alt="Suppression de virus et optimisation" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />

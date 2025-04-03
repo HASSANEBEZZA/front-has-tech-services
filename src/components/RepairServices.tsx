@@ -20,7 +20,7 @@ const RepairServices: React.FC = () => {
           Nous remplaçons les écrans cassés de vos appareils avec des pièces de qualité pour restaurer leur aspect et leur fonctionnalité.
         </p>
         <img 
-          src="https://i.imgur.com/eK7x0Gx.jpeg" 
+          src="https://i.imgur.com/S1iCUPx.png" 
           alt="Changement d'écran cassé" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -33,7 +33,7 @@ const RepairServices: React.FC = () => {
           Si votre batterie ne tient plus la charge, nous la remplaçons par une nouvelle pour redonner à votre appareil son autonomie d'origine.
         </p>
         <img 
-          src="https://i.imgur.com/XYUVQlx.jpeg" 
+          src="https://i.imgur.com/wmV6XnB.png" 
           alt="Remplacement de batterie" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -46,7 +46,7 @@ const RepairServices: React.FC = () => {
           Nous réparons les haut-parleurs et micros défectueux pour assurer un son clair et une communication fluide.
         </p>
         <img 
-          src="https://i.imgur.com/7bTYWlv.jpeg" 
+          src="https://i.imgur.com/gVdSY4W.png" 
           alt="Réparation haut-parleur et micro" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -59,7 +59,7 @@ const RepairServices: React.FC = () => {
           Nous remplaçons toutes les pièces défectueuses (clavier, carte mère, connecteurs, etc.) pour assurer le bon fonctionnement de votre appareil.
         </p>
         <img 
-          src="https://i.imgur.com/Qv8OetM.jpeg" 
+          src="https://i.imgur.com/SgRl9JL.png" 
           alt="Changement de pièces défectueuses" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
