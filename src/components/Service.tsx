@@ -25,7 +25,7 @@ const Services: React.FC = () => {
           {/* Service 1 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/repair-info">
-              <img src="https://i.imgur.com/xWaLqBu.jpeg" alt="Illustration de dépannage informatique" className="w-full h-64 object-contain mb-2" />
+              <img src="https://i.imgur.com/8YJd3Kn.png" alt="Illustration de dépannage informatique" className="w-full h-64 object-contain mb-2" />
             </Link>
             <p className="text-sm text-gray-500 text-center mb-4">
               <Link to="/repair-info" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
@@ -43,7 +43,7 @@ const Services: React.FC = () => {
           {/* Service 2 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/network-setup">
-              <img src="https://i.imgur.com/5QShZ83.jpeg" alt="Illustration de configuration réseau" className="w-full h-64 object-contain mb-2" />
+              <img src="https://i.imgur.com/naTb98g.png" alt="Illustration de configuration réseau" className="w-full h-64 object-contain mb-2" />
             </Link>
             <p className="text-sm text-gray-500 text-center mb-4">
               <Link to="/network-setup" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
