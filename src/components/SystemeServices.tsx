@@ -11,6 +11,7 @@ const SystemeServices: React.FC = () => {
       <h1 className="text-3xl font-bold text-center text-blue-700 mb-8">
       formatage et installation téléphone
       </h1>
+      <br />
       
       {/* Formatage et réinstallation du système */}
       <section className="mb-12">
