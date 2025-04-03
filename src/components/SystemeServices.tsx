@@ -46,7 +46,7 @@ const SystemeServices: React.FC = () => {
           Nous supprimons les virus et malwares de votre appareil, puis procédons à une optimisation de ses performances pour une utilisation fluide.
         </p>
         <img 
-          src="https://i.imgur.com/y7PYTzu.png" 
+          src="https://i.imgur.com/eQKMUew.png" 
           alt="Suppression de virus et optimisation" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
