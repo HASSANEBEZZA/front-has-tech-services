@@ -61,7 +61,7 @@ const Services: React.FC = () => {
           {/* Service 3 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/assistance-formation">
-              <img src="https://i.imgur.com/IdX3BM2.jpeg" alt="Illustration d'assistance et formation" className="w-full h-64 object-contain mb-2" />
+              <img src="https://i.imgur.com/pt9PTdm.png" alt="Illustration d'assistance et formation" className="w-full h-64 object-contain mb-2" />
             </Link>
             <p className="text-sm text-gray-500 text-center mb-4">
               <Link to="/assistance-formation" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>

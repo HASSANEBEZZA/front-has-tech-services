@@ -67,7 +67,7 @@ const QuiSommesNous: React.FC = () => {
           
           <div className="image-container mt-8 text-center">
             <img 
-              src="https://i.imgur.com/52Clmfv.jpeg" 
+              src="https://i.imgur.com/okh3cGr.png" 
               alt="Nos Services" 
             />
           </div>
