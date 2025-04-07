@@ -78,7 +78,7 @@ const Services: React.FC = () => {
           {/* Service 4 */}
           <div className="service-card p-4 bg-white shadow-lg rounded-lg">
             <Link to="/creation-sites-accompagnement">
-              <img src="https://i.imgur.com/5PHul5a.jpeg" alt="Illustration de création de sites web" className="w-full h-64 object-contain mb-2" />
+              <img src="https://i.imgur.com/Lvg4gLK.png" alt="Illustration de création de sites web" className="w-full h-64 object-contain mb-2" />
             </Link>
             <p className="text-sm text-gray-500 text-center mb-4">
               <Link to="/creation-sites-accompagnement" className="text-blue-600 hover:underline">Cliquez pour en savoir plus</Link>
