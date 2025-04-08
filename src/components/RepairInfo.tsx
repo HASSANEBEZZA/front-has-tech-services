@@ -20,7 +20,7 @@ const RepairInfo: React.FC = () => {
           Nous proposons des services de réparation pour tous vos appareils informatiques, y compris les ordinateurs de bureau, portables et imprimantes. Quel que soit le problème, nous avons la solution.
         </p>
         <img 
-          src="https://i.imgur.com/sJG4WXi.jpeg" 
+          src="https://i.imgur.com/hd2WkCk.png" 
           alt="Réparation informatique" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -33,7 +33,7 @@ const RepairInfo: React.FC = () => {
           Nous offrons des services de maintenance logicielle, y compris la suppression de virus, l'optimisation des performances et la gestion des mises à jour. Assurez-vous que votre système fonctionne à son meilleur niveau.
         </p>
         <img 
-          src="https://i.imgur.com/DPAL2Oo.jpeg" 
+          src="https://i.imgur.com/kL9wup6.png" 
           alt="Maintenance logicielle" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -46,7 +46,7 @@ const RepairInfo: React.FC = () => {
           Vous avez perdu des données importantes ? Nous proposons des services de récupération de données à partir de disques durs endommagés ou d'autres supports de stockage. Nous récupérons vos données avec soin et sécurité.
         </p>
         <img 
-          src="https://i.imgur.com/0eFvmKH.jpeg" 
+          src="https://i.imgur.com/WG3CEIl.png" 
           alt="Récupération de données" 
           className="w-1/3 h-auto mb-8 mx-auto"
         />
@@ -59,7 +59,7 @@ const RepairInfo: React.FC = () => {
         Votre ordinateur comporte de nombreux composants sensibles et fragiles. On vous conseille de prendre soin de votre appareil en cas de chocs, d'exposition à l'eau, à l'humidité, à la poussière et aux températures extrêmes. Notre service de réparation incluent également des vérifications pour assurer une bonne ventilation et préserver les charnières, afin de garantir une utilisation optimale et une plus longue durée de vie de votre appareil.
         </p>
         <img 
-          src="https://i.imgur.com/P5sUA2V.jpeg" 
+          src="https://i.imgur.com/9DzApRz.png" 
           alt="Précautions pour ordinateur" 
           className="w-full h-auto mb-8"
         />
