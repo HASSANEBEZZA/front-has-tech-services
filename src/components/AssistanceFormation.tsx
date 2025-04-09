@@ -23,7 +23,7 @@ const AssistanceFormation: React.FC = () => {
         On propose une assistance technique pour résoudre vos problèmes informatiques, que ce soit à distance ou directement sur site. Que vous rencontrez des soucis logiciels, matériels ou réseau, on est là pour vous aider à trouver des solutions rapides et efficaces.
         </p>
         <img
-          src="https://i.imgur.com/Ky7Vg4u.jpg"
+          src="https://i.imgur.com/oNolmol.png"
           alt="Assistance technique"
           className="w-1/3 h-auto mb-8 mx-auto"  
         />
@@ -36,7 +36,7 @@ const AssistanceFormation: React.FC = () => {
         Apprenez à utiliser les outils informatiques grâce à une formation personnalisée. On vous accompagne dans la prise en main de votre ordinateur, l'utilisation d'Internet et d'autres logiciels essentiels pour vos besoins quotidiens ou professionnels.
         </p>
         <img
-          src="https://i.imgur.com/E0P6Ar5.jpeg"
+          src="https://i.imgur.com/1DPXwm8.png"
           alt="Formation personnalisée"
           className="w-1/3 h-auto mb-8 mx-auto"  
         />
@@ -49,7 +49,7 @@ const AssistanceFormation: React.FC = () => {
         Découvrez comment naviguer sur Internet en toute sécurité, gérez vos emails, utilisez les moteurs de recherche efficacement et bien plus encore. On vous aide à maîtriser ces compétences essentielles pour rester connecté au monde numérique.
         </p>
         <img
-          src="https://i.imgur.com/awNYXDz.jpeg"
+          src="https://i.imgur.com/gQHAUvs.png"
           alt="Utilisation d'Internet"
           className="w-1/3 h-auto mb-8 mx-auto"  
         />
@@ -62,7 +62,7 @@ const AssistanceFormation: React.FC = () => {
         Apprenez les bases de la sécurité informatique pour protéger vos données personnelles et professionnelles. On vous accompagne pour comprendre les bonnes pratiques, telles que la gestion des mots de passe, la détection des emails frauduleux et la protection de votre réseau.
         </p>
         <img
-          src="https://i.imgur.com/TqVfako.jpeg"
+          src="https://i.imgur.com/TkVC7v4.png"
           alt="Sécurité informatique"
           className="w-1/3 h-auto mb-8 mx-auto"  
         />
