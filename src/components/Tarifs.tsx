@@ -43,7 +43,7 @@ const Tarifs: React.FC = () => {
             <tr>
               <td>Intervention complexe</td>
               <td>100€</td>
-              <td><img src="https://i.imgur.com/1mccX1D.png" alt="Optimisation Wi-Fi" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/RVZZlhH.png" alt="Optimisation Wi-Fi" className="image-small" /></td>
             </tr>
             <tr>
               <td>Assistance, Accompagnement et Formation</td>
@@ -58,7 +58,7 @@ const Tarifs: React.FC = () => {
             <tr>
               <td>Maintenance et réparation des pièces d'ordinateur</td>
               <td>Prix variable selon la panne</td>
-              <td><img src="https://i.imgur.com/EcvAEQf.jpeg" alt="Réparation matériel" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/1mccX1D.png" alt="Réparation matériel" className="image-small" /></td>
             </tr>
             <tr>
               <td>Réparation de téléphone portable </td>
