@@ -45,7 +45,7 @@ const NetworkServices: React.FC = () => {
         Améliorez la portée et la performance de votre réseau Wi-Fi. On propose des solutions pour optimiser votre signal Wi-Fi et garantir une couverture homogène dans toute votre maison ou bureau, tout en assurant une connexion stable pour tous vos appareils.
         </p>
         <img
-          src="https://i.imgur.com/V1ElNe8.jpg" 
+          src="https://i.imgur.com/mnqOVZt.png/600x400" 
           alt="Optimisation réseaux Wi-Fi"
         />
       </section>
