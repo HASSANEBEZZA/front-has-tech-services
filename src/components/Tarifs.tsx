@@ -48,7 +48,7 @@ const Tarifs: React.FC = () => {
             <tr>
               <td>Assistance, Accompagnement et Formation</td>
               <td>30€/1h</td>
-              <td><img src="https://i.imgur.com/EOGjcS0.png" alt="Maintenance et dépannage" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/fxYDloe.png" alt="Maintenance et dépannage" className="image-small" /></td>
             </tr>
             <tr>
               <td>Évaluation, Audit et sécurisation du réseau</td>
