@@ -23,7 +23,7 @@ const NetworkServices: React.FC = () => {
         On s'occupe de l'installation et de la configuration de vos équipements réseau, tels que les routeurs et commutateurs, pour assurer une connexion fiable et rapide dans votre environnement professionnel ou domestique.
         </p>
         <img
-          src="https://i.imgur.com/guEuj7h.jpg/600x400" 
+          src="https://i.imgur.com/bkjH8lK.png/600x400" 
           alt="Installation routeurs et switchs"
         />
       </section>
@@ -34,11 +34,11 @@ const NetworkServices: React.FC = () => {
         On crée des réseaux locaux (LAN) adaptés à vos besoins, que ce soit pour un bureau ou une maison. Que ce soit pour une petite entreprise ou un réseau domestique complexe, on vous accompagne pour établir une infrastructure performante et sécurisée.
         </p>
         <img
-          src="https://i.imgur.com/uiTl6tk.jpeg/600x400" 
+          src="https://i.imgur.com/zRklBdj.png/600x400" 
           alt="Création réseaux locaux"
         />
       </section>
-jpg
+
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Optimisation des réseaux Wi-Fi</h2>
         <p className="text-lg text-gray-700 mb-4">
@@ -56,7 +56,7 @@ jpg
         On s'assure que votre réseau est protégé contre les menaces extérieures en configurant des pare-feu, des protocoles de sécurité avancés et des réseaux privés virtuels (VPN), pour une sécurité renforcée de vos données et de vos connexions.
         </p>
         <img
-          src="https://i.imgur.com/YZZ2pBZ.jpeg/600x400" 
+          src="https://i.imgur.com/XP58BLn.png/600x400" 
           alt="Sécurisation des réseaux"
         />
       </section>
@@ -67,7 +67,7 @@ jpg
         On vous aide à gérer vos adresses IP et à installer un câblage Ethernet propre et performant, permettant une communication rapide et stable entre vos équipements.
         </p>
         <img
-          src="https://i.imgur.com/JSpYFDj.jpeg" 
+          src="https://i.imgur.com/O2bvSSu.png/600x400" 
           alt="Gestion IP et câblage Ethernet"
         />
       </section>
