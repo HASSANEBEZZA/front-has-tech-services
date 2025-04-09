@@ -33,27 +33,27 @@ const Tarifs: React.FC = () => {
             <tr>
               <td>Intervention simple</td>
               <td>35€</td>
-              <td><img src="https://i.imgur.com/2mPhMbD.jpeg" alt="Installation routeur" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/aBwatMZ.png" alt="Installation routeur" className="image-small" /></td>
             </tr>
             <tr>
               <td>Intervention intermédiaire</td>
               <td>50€</td>
-              <td><img src="https://i.imgur.com/B1i4E4i.jpg" alt="Réseaux locaux" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/s5RxyyQ.png" alt="Réseaux locaux" className="image-small" /></td>
             </tr>
             <tr>
               <td>Intervention complexe</td>
               <td>100€</td>
-              <td><img src="https://i.imgur.com/Dk7cIgw.jpeg" alt="Optimisation Wi-Fi" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/1mccX1D.png" alt="Optimisation Wi-Fi" className="image-small" /></td>
             </tr>
             <tr>
               <td>Assistance, Accompagnement et Formation</td>
               <td>30€/1h</td>
-              <td><img src="https://i.imgur.com/dsR94dQ.jpg" alt="Maintenance et dépannage" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/I6N9v5M.png" alt="Maintenance et dépannage" className="image-small" /></td>
             </tr>
             <tr>
               <td>Évaluation, Audit et sécurisation du réseau</td>
               <td>50€/1h</td>
-              <td><img src="https://i.imgur.com/uybf3qD.png" alt="Sécurisation réseau" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/MP2tLwg.png" alt="Sécurisation réseau" className="image-small" /></td>
             </tr>
             <tr>
               <td>Maintenance et réparation des pièces d'ordinateur</td>
@@ -63,7 +63,7 @@ const Tarifs: React.FC = () => {
             <tr>
               <td>Entretien et nettoyage</td>
               <td>20€</td>
-              <td><img src="https://i.imgur.com/z17iKib.jpeg" alt="Nettoyage ordinateur" className="image-small" /></td>
+              <td><img src="https://i.imgur.com/Tai20zP.png" alt="Nettoyage ordinateur" className="image-small" /></td>
             </tr>
           </tbody>
         </table>
