@@ -61,6 +61,11 @@ const Tarifs: React.FC = () => {
               <td><img src="https://i.imgur.com/EcvAEQf.jpeg" alt="Réparation matériel" className="image-small" /></td>
             </tr>
             <tr>
+              <td>Réparation de téléphone portable </td>
+              <td>Á partir de 35€</td>
+              <td><img src="https://i.imgur.com/WcPy733.png" alt="Nettoyage ordinateur" className="image-small" /></td>
+            </tr>
+            <tr>
               <td>Entretien et nettoyage</td>
               <td>20€</td>
               <td><img src="https://i.imgur.com/Tai20zP.png" alt="Nettoyage ordinateur" className="image-small" /></td>
