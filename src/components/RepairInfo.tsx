@@ -72,7 +72,7 @@ const RepairInfo: React.FC = () => {
         La poussière est l'un des principaux ennemis de votre appareil. On propose un service de nettoyage complet, en dépoussiérant les parties visibles et internes de votre ordinateur à l'aide d'outils professionnels, pour garantir une meilleure longévité.
         </p>
         <img 
-          src="https://i.imgur.com/LNFOWFR.jpeg" 
+          src="https://i.imgur.com/91C81MU.png" 
           alt="Nettoyage de l'ordinateur" 
           className="w-full h-auto mb-8"
         />
@@ -85,7 +85,7 @@ const RepairInfo: React.FC = () => {
         Les batteries au lithium fonctionnent de manière optimale lorsque leur charge est maintenue entre 20% et 80%. Grâce à nos services de réparation, on vous aide à optimiser la gestion de la batterie pour éviter les décharges complètes et les surcharges prolongées, contribuant ainsi à la préservation de sa durée de vie.
         </p>
         <img 
-          src="https://i.imgur.com/Inzx63y.jpeg" 
+          src="https://i.imgur.com/I1Ytaj6.png" 
           alt="Prolonger la vie de la batterie" 
           className="w-full h-auto mb-8"
         />
@@ -98,7 +98,7 @@ const RepairInfo: React.FC = () => {
         Les batteries au lithium fonctionnent de manière optimale lorsque leur charge est maintenue entre 20% et 80%. Grâce à nos services de réparation, on vous aide à optimiser la gestion de la batterie pour éviter les décharges complètes et les surcharges prolongées, contribuant ainsi à la préservation de sa durée de vie.
         </p>
         <img 
-          src="https://i.imgur.com/6Gg0awi.jpeg" 
+          src="https://i.imgur.com/6QMwxlc.png" 
           alt="Réparation et écologie" 
           className="w-full h-auto mb-8"
         />
