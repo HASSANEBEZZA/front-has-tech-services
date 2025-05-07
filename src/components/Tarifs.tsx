@@ -115,7 +115,7 @@ const Tarifs: React.FC = () => {
         <div className="contact-info">
           <div className="contact-item">
             <FaPhoneAlt size={24} className="icon" />
-            <p className="text-lg text-gray-700">+33 7 76 11 68 96</p>
+            <p className="text-lg text-gray-700">07 76 11 68 96</p>
           </div>
           <div className="contact-item">
             <FaEnvelope size={24} className="icon" />
